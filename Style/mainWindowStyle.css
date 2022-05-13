@@ -1,0 +1,108 @@
+body {
+    background-color: #1E1E1E;
+    color: white;
+    font-family: "Arial Black", Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.inputContainer {
+    width: 55%;
+    height: 370px;
+    background-color: #2B2D3A;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+#clockDisplay {
+    width: 41%;
+    height: 160px;
+    background-color: #2B2D3A;
+    float: right;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+#clock {
+    text-align: center;
+    font-size: 80px;
+    margin-top: 0px;
+}
+
+#clockHr {
+    margin-top: 0px;
+}
+
+#dropDetect {
+    margin-top: 0px;
+    text-align: center;
+    color: #4CAF50;
+}
+
+input {
+    background-color: #2B2D3A;
+    border-color: white;
+    color: white;
+}
+
+select {
+    background-color: #2B2D3A; 
+    outline-color: white;
+    color: white;
+}
+
+.label {    
+    display: inline-block;
+    width: 35.5%;
+    padding: 2%
+}
+
+.inputBox {
+    width: 55%;
+    float: right;
+    padding: 1%;
+    margin-top: 2%;
+    margin-right: 2%;
+    border: 1px solid white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.checkBox {
+    float: right;
+    margin-top: 3%;
+    margin-right: 2%;
+    border: none;
+}
+
+#size {
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 5%;
+}
+
+#startButtonDiv {
+    text-align: right;
+    padding-top: 405px;
+    margin-right: 1%;
+}
+
+#startButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 35px 160px;
+    text-align: center;
+    display: inline-block;
+    font-size: 26px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loadProfileDiv {
+    display: block;
+    float: right;
+}
+
+#break {
+    display: block;
+}

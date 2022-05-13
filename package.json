@@ -1,0 +1,15 @@
+{
+  "name": "supautocop",
+  "version": "1.0.0",
+  "description": "SupAutoCop Supreme Bot",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Hichem Sehabi",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^7.1.9"
+  },
+  "devDependencies": {}
+}

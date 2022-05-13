@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="clock.js"></script>
+        <h1>Payment Profile</h1>
+    </head>
+    <hr>
+    <body>
+        <form>
+            <div>
+                <label>Profile Name</label>
+                <input type="text" id="profileName">
+            </div>
+            <div>
+                <label>Cardholder Name</label>
+                <input type="text" id="billingName">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="text" id="email">
+            </div>
+            <div>
+                <label>Phone number</label>
+                <input type="text" id="tel">
+            </div>
+            <div>
+                <label>Billing Address</label>
+                <input type="text" id="billingAddress">
+            </div>
+            <div>
+                <label>Zip</label>
+                <input type="text" id="billingZip">
+            </div>
+            <div>
+                <label>city</label>
+                <input type="text" id="billingCity">
+            </div>
+            <div>
+                <label>state</label>
+                <input type="text" id="billingState">
+            </div>
+            <div>
+                <label>country</label>
+                <input type="text" id="billingCountry">
+            </div>
+            <div>
+                <label>Credit Card Number</label>
+                <input type="text" id="ccNumber">
+            </div>
+            <div>
+                <label>Expiration Date</label>
+                <input type="text" id="cardMonth" placeholder="mm">
+                <input type="text" id="cardYear" placeholder="yyyy">
+            </div>
+            <div>
+                <label>Security Number</label>
+                <input type="text" id="secNumber" placeholder="ccv">
+            </div>
+            <div>
+                <input type="button" id="save" value="save" onclick="savePayment()">
+            </div>
+        </form>
+    </body>
+</html>

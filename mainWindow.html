@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="startTask.js"></script> 
+        <script src="clock.js"></script>
+        <link rel="stylesheet" type="text/css" href="Style/mainWindowStyle.css">
+        <title>SupAutoCop Supreme Bot</title>
+    </head>
+    <body onload="clock()">
+        <form>
+            <div class="firstFloor">
+                <div class="inputContainer">
+                    <div class="input">
+                        <label class="label">Item Name</label>
+                        <input type="text" id="itemName" name="itemName" class="inputBox">
+                    </div>
+                    <div class="input">
+                        <label class="label">Style</label>
+                        <input type="text" id="style" name="style" class="inputBox">
+                    </div>
+                    <p id=size><strong>Size</strong></p>
+                    <hr class="lineBreak">
+                    <div>
+                        <label class="label">Apparel</label>
+                        <select id="sizeName1" class="inputBox">
+                            <option name="sizeName" value="">Select Size</option>
+                            <option name="sizeName" value="Small">Small</option>
+                            <option name="sizeName" value="Medium">Medium</option>
+                            <option name="sizeName" value="Large">Large</option>
+                            <option name="sizeName" value="XLarge">Extra Large</option>
+                            <option name="sizeName" value="XXLarge">XXL</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="label">Footwear</label>
+                        <select id="sizeName2" class="inputBox">
+                            <option name="sizeName" value="">Select Size</option>
+                            <option name="sizeName" value="4">4</option>
+                            <option name="sizeName" value="4.5">4.5</option>
+                            <option name="sizeName" value="5">5</option>
+                            <option name="sizeName" value="5.5">5.5</option>
+                            <option name="sizeName" value="6">6</option>
+                            <option name="sizeName" value="6.5">6.5</option>
+                            <option name="sizeName" value="7">7</option>
+                            <option name="sizeName" value="7.5">7.5</option>
+                            <option name="sizeName" value="8">8</option>
+                            <option name="sizeName" value="8.5">8.5</option>
+                            <option name="sizeName" value="9">9</option>
+                            <option name="sizeName" value="9.5">9.5</option>
+                            <option name="sizeName" value="10">10</option>
+                            <option name="sizeName" value="10.5">10.5</option>
+                            <option name="sizeName" value="11">11</option>
+                            <option name="sizeName" value="11.5">11.5</option>
+                            <option name="sizeName" value="12">12</option>
+                            <option name="sizeName" value="12.5">12.5</option>
+                            <option name="sizeName" value="13">13</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="label">No size</label>
+                        <input type="checkbox" name="sizePresence" id="sizePresence" value="false" class="checkBox">
+                    </div>
+                </div>
+                <div id="clockDisplay">
+                    <p id="clock"></p>
+                    <hr id="clockHr">
+                    <p id="dropDetect">No task currently running</p>
+                </div>
+                <div id="loadProfileDiv">
+                    <input id="loadProfile" value="Load profile" type="Button" onclick="loadPayment()">
+                </div>
+            </div>
+            <div id="break">
+            <div id="startButtonDiv">
+                <input id="startButton" value="Start Task" type="Button" onclick="startTask(), startCopping()">
+            </div>
+            </div>
+        </form>      
+    </body>
+</html>
